@@ -1,0 +1,174 @@
+{
+  "base": "248bfbe1117da1e7cc23bd41273188318afec3a5",
+  "commit": "65551d829b635beaadd9fb9fc783cc04aa95ea53",
+  "runs": [
+    {
+      "run": 1,
+      "variant": "baseline",
+      "metrics": "final-baseline-1\\composer-images.bench.ts-paste-large-images-and-keep-typing\\metrics.json",
+      "browser": "155.0.8059.82",
+      "elapsedMs": 6437.4829,
+      "characters": 228,
+      "frameP95": 266.60000000000014,
+      "frameMax": 366.5999999999999,
+      "longTaskTotalMs": 2857,
+      "longTaskCount": 10,
+      "eventMax": 760,
+      "images": [
+        {
+          "width": 17901,
+          "height": 10654
+        },
+        {
+          "width": 8858,
+          "height": 7228
+        },
+        {
+          "width": 8858,
+          "height": 7228
+        }
+      ],
+      "errors": []
+    },
+    {
+      "run": 1,
+      "variant": "patched",
+      "metrics": "final-patched-1\\composer-images.bench.ts-paste-large-images-and-keep-typing\\metrics.json",
+      "browser": "155.0.8059.82",
+      "elapsedMs": 3638.7762000000002,
+      "characters": 228,
+      "frameP95": 33.40000000000009,
+      "frameMax": 55.32999997615815,
+      "longTaskTotalMs": 0,
+      "longTaskCount": 0,
+      "eventMax": 64,
+      "images": [
+        {
+          "width": 232,
+          "height": 138
+        },
+        {
+          "width": 225,
+          "height": 184
+        },
+        {
+          "width": 225,
+          "height": 184
+        }
+      ],
+      "errors": []
+    },
+    {
+      "run": 2,
+      "variant": "baseline",
+      "metrics": "final-baseline-2\\composer-images.bench.ts-paste-large-images-and-keep-typing\\metrics.json",
+      "browser": "155.0.8059.82",
+      "elapsedMs": 5654.3035,
+      "characters": 228,
+      "frameP95": 166.60000000000002,
+      "frameMax": 266.5999999999999,
+      "longTaskTotalMs": 2084,
+      "longTaskCount": 11,
+      "eventMax": 568,
+      "images": [
+        {
+          "width": 17901,
+          "height": 10654
+        },
+        {
+          "width": 8858,
+          "height": 7228
+        },
+        {
+          "width": 8858,
+          "height": 7228
+        }
+      ],
+      "errors": []
+    },
+    {
+      "run": 2,
+      "variant": "patched",
+      "metrics": "final-patched-2\\composer-images.bench.ts-paste-large-images-and-keep-typing\\metrics.json",
+      "browser": "155.0.8059.82",
+      "elapsedMs": 3686.674,
+      "characters": 228,
+      "frameP95": 33.40000000000009,
+      "frameMax": 52.53000004768373,
+      "longTaskTotalMs": 0,
+      "longTaskCount": 0,
+      "eventMax": 64,
+      "images": [
+        {
+          "width": 232,
+          "height": 138
+        },
+        {
+          "width": 225,
+          "height": 184
+        },
+        {
+          "width": 225,
+          "height": 184
+        }
+      ],
+      "errors": []
+    },
+    {
+      "run": 3,
+      "variant": "baseline",
+      "metrics": "final-baseline-3\\composer-images.bench.ts-paste-large-images-and-keep-typing\\metrics.json",
+      "browser": "155.0.8059.82",
+      "elapsedMs": 8332.5836,
+      "characters": 228,
+      "frameP95": 366.59999999999945,
+      "frameMax": 499.9000000000001,
+      "longTaskTotalMs": 4764,
+      "longTaskCount": 13,
+      "eventMax": 1032,
+      "images": [
+        {
+          "width": 17901,
+          "height": 10654
+        },
+        {
+          "width": 8858,
+          "height": 7228
+        },
+        {
+          "width": 8858,
+          "height": 7228
+        }
+      ],
+      "errors": []
+    },
+    {
+      "run": 3,
+      "variant": "patched",
+      "metrics": "final-patched-3\\composer-images.bench.ts-paste-large-images-and-keep-typing\\metrics.json",
+      "browser": "155.0.8059.82",
+      "elapsedMs": 3646.4095999999995,
+      "characters": 228,
+      "frameP95": 33.40000000000009,
+      "frameMax": 55.86200004768372,
+      "longTaskTotalMs": 0,
+      "longTaskCount": 0,
+      "eventMax": 96,
+      "images": [
+        {
+          "width": 232,
+          "height": 138
+        },
+        {
+          "width": 225,
+          "height": 184
+        },
+        {
+          "width": 225,
+          "height": 184
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
